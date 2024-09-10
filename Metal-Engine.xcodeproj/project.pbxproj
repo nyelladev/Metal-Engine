@@ -14,6 +14,7 @@
 		2B3638192C8FF4DD00F5C2E9 /* Metal_EngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3638182C8FF4DD00F5C2E9 /* Metal_EngineTests.swift */; };
 		2B3638232C8FF4DD00F5C2E9 /* Metal_EngineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3638222C8FF4DD00F5C2E9 /* Metal_EngineUITests.swift */; };
 		2B3638252C8FF4DD00F5C2E9 /* Metal_EngineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3638242C8FF4DD00F5C2E9 /* Metal_EngineUITestsLaunchTests.swift */; };
+		2B3638322C8FF52200F5C2E9 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3638312C8FF52200F5C2E9 /* MetalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		2B36381E2C8FF4DD00F5C2E9 /* Metal-EngineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Metal-EngineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B3638222C8FF4DD00F5C2E9 /* Metal_EngineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metal_EngineUITests.swift; sourceTree = "<group>"; };
 		2B3638242C8FF4DD00F5C2E9 /* Metal_EngineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metal_EngineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2B3638312C8FF52200F5C2E9 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		2B3638052C8FF4DC00F5C2E9 /* Metal-Engine */ = {
 			isa = PBXGroup;
 			children = (
+				2B3638312C8FF52200F5C2E9 /* MetalView.swift */,
 				2B3638062C8FF4DC00F5C2E9 /* Metal_EngineApp.swift */,
 				2B3638082C8FF4DC00F5C2E9 /* ContentView.swift */,
 				2B36380A2C8FF4DD00F5C2E9 /* Assets.xcassets */,
@@ -194,6 +197,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
+				ORGANIZATIONNAME = "Nyella Dev";
 				TargetAttributes = {
 					2B3638022C8FF4DC00F5C2E9 = {
 						CreatedOnToolsVersion = 15.0.1;
@@ -259,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B3638322C8FF52200F5C2E9 /* MetalView.swift in Sources */,
 				2B3638092C8FF4DC00F5C2E9 /* ContentView.swift in Sources */,
 				2B3638072C8FF4DC00F5C2E9 /* Metal_EngineApp.swift in Sources */,
 			);
@@ -417,9 +422,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Metal-Engine/Metal_Engine.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Metal-Engine/Preview Content\"";
+				DEVELOPMENT_TEAM = JGK8S83DS3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -453,9 +460,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Metal-Engine/Metal_Engine.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Metal-Engine/Preview Content\"";
+				DEVELOPMENT_TEAM = JGK8S83DS3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
