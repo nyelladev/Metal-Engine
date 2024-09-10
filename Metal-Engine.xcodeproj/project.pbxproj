@@ -15,6 +15,7 @@
 		2B3638232C8FF4DD00F5C2E9 /* Metal_EngineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3638222C8FF4DD00F5C2E9 /* Metal_EngineUITests.swift */; };
 		2B3638252C8FF4DD00F5C2E9 /* Metal_EngineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3638242C8FF4DD00F5C2E9 /* Metal_EngineUITestsLaunchTests.swift */; };
 		2B3638322C8FF52200F5C2E9 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3638312C8FF52200F5C2E9 /* MetalView.swift */; };
+		2B3638342C8FFD9600F5C2E9 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3638332C8FFD9600F5C2E9 /* Renderer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2B3638222C8FF4DD00F5C2E9 /* Metal_EngineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metal_EngineUITests.swift; sourceTree = "<group>"; };
 		2B3638242C8FF4DD00F5C2E9 /* Metal_EngineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metal_EngineUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2B3638312C8FF52200F5C2E9 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		2B3638332C8FFD9600F5C2E9 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				2B36380A2C8FF4DD00F5C2E9 /* Assets.xcassets */,
 				2B36380C2C8FF4DD00F5C2E9 /* Metal_Engine.entitlements */,
 				2B36380D2C8FF4DD00F5C2E9 /* Preview Content */,
+				2B3638332C8FFD9600F5C2E9 /* Renderer.swift */,
 			);
 			path = "Metal-Engine";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B3638342C8FFD9600F5C2E9 /* Renderer.swift in Sources */,
 				2B3638322C8FF52200F5C2E9 /* MetalView.swift in Sources */,
 				2B3638092C8FF4DC00F5C2E9 /* ContentView.swift in Sources */,
 				2B3638072C8FF4DC00F5C2E9 /* Metal_EngineApp.swift in Sources */,
